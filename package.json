@@ -1,0 +1,22 @@
+{
+  "name": "html-form-merge",
+  "version": "0.0.0",
+  "description": "Merge DOM elements for html-form",
+  "main": "html-form-events.js",
+  "scripts": {
+    "start": "esbuild html-form-merge.js --format=iife --bundle --outdir=public && esbuild ./public/html-form-merge.js --minify --outfile=public/html-form-merge.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "htmf",
+    "html-form",
+    "html",
+    "merge"
+  ],
+  "author": "Jon Nyman",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.25.10",
+    "morphdom": "^2.7.7"
+  }
+}
